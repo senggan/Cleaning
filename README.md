@@ -19,4 +19,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 * 5) And, you should see "test" and "train" as subdirectory.  Then, you are good to start running the program.
 
-* 6) If you do not see those files and directory, please change and check your current working directory.  If that is not the problem, you may have to do restart from step (1)
+* 6) If you do not see those files and directory, please change and check your current working directory.  If that is not the problem, you may need have to do restart from step (1)
+
+* 7) source("run_analysis.R") in R
+
+* 8) issue "run_analysis()" in R to start the script
+* 9) The script will write "MeanTbl.txt" file in the working directory
+* 10) Use read.table function to run the file into R table and View the table using View() fucntion.
