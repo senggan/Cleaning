@@ -16,7 +16,7 @@ A file with 6 rows with descriptive name of each activities
 
 3. "train\X_train.txt" & "test\X_test.txt"
 
-The complete data set with 561 columns and 2947 observations.  Please note that the "X" at the file name is capitalized.
+The complete data set with 561 columns.  Please note that the "X" at the file name is capitalized.
 
 4. "train\subject_train.txt" & "test\subject_test.txt"
 
@@ -32,17 +32,17 @@ A file with activity code for each row in x_train.txt & x_test.txt
 to use dplyr package
 
 2. Get the Column Index and Label for mean and std measurement by searching for mean and std 
-in the column label. Please note that MeanFreq are excluded since it is not either mean or 
+in the column label. Please note that MeanFreq are excluded since it is neither mean or 
 standard deviation of measurment This will be used to pick up the columns in data set
 
 3. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
 4. Appropriately labels the data set with descriptive variable names.
 
-5. Add in subject column and Activity code column for both train and test data set.
+5. Add in subject column and Activity column for both train and test data set.
 
 6. Merges the training and the test sets to create one data set.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Write out the tindy data set to "MeanTbl.txt"
+7. From the data set in step 6, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Write out the tindy data set to "MeanTbl.txt"
 
 # Data Dictionary
 The raw data are from "Human Activity Recognition Using Smartphones Dataset
@@ -56,15 +56,12 @@ www.smartlab.ws
 
 Output data are 68 columns.  The description of each Columns are as follows:
 
-1. SubjectId
-The value range for 1 to 30 corresponding to 30 subjects.
-
-2. Activity
-
-6 possible values: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS","SITTING", "STANDING","LAYING"
-
 Column 3 to 68 has the range of value from -1.0 to 1.0.  
 They are the mean of the mean or standard deviation of the specic measurement.
+
+1. SubjectId - The value range for 1 to 30 corresponding to 30 subjects.
+
+2. Activity - 6 possible values: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS","SITTING", "STANDING","LAYING"
 
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y          

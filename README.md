@@ -9,6 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * 3) Do a "list.files()" to confirm that your working directory and the script are in the same directory
 
 > list.files()
+
 [1] "activity_labels.txt"   "Cleaning"             
 [3] "features.txt"          "features_info.txt"    
 [5] "README.txt"            "run_analysis.R"       
