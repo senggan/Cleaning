@@ -6,25 +6,25 @@ output: html_document
 
 ## Source of data
 
-1. "features.txt"
+1. "features.txt" 
 
-A file contains the 561 columns label of the test and train data set
+* A file contains the 561 columns label of the test and train data set
 
-2. "activity_labels.txt"
+2. "activity_labels.txt" 
 
-A file with 6 rows with descriptive name of each activities
+* A file with 6 rows with descriptive name of each activities
 
-3. "train\X_train.txt" & "test\X_test.txt"
+3. "train\X_train.txt" & "test\X_test.txt" 
 
-The complete data set with 561 columns.  Please note that the "X" at the file name is capitalized.
+* The complete data set with 561 columns.  Please note that the "X" at the file name is capitalized.
 
 4. "train\subject_train.txt" & "test\subject_test.txt"
 
-A file with subject id for each row in x_train.txt & x_test.txt
+* A file with subject id for each row in x_train.txt & x_test.txt
 
 5. "train\y_train.txt" & "test\y_test.txt"
 
-A file with activity code for each row in x_train.txt & x_test.txt
+* A file with activity code for each row in x_train.txt & x_test.txt
 
 ## Processing Step inside the run_analysis.R script
 
