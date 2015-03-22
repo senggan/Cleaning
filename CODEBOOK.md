@@ -54,7 +54,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-Output data are 68 columns.  The description of each Columns are as follows:
+Output data are 68 columns and 180 rows.  The description of each Columns are as follows:
 
 Column 3 to 68 has the range of value from -1.0 to 1.0.  
 They are the mean of the mean or standard deviation of the specific measurement.
