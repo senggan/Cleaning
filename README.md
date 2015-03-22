@@ -26,4 +26,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 * 8) issue "run_analysis()" in R to start the script
 * 9) The script will write "MeanTbl.txt" file in the working directory
-* 10) Use read.table function to run the file into R table and View the table using View() fucntion.
+* 10) Use read.table(header=TRUE) function to read the file into R table
+* 11) View the table using View() fucntion.  Please noted that the V in 
+    view function is capitalize.
